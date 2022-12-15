@@ -17,33 +17,33 @@ body {
   justify-content: center;
   background-color: hsl(0, 0%, 100%);
   min-height: 450px;
-  padding: 15px;
-  border-radius: 25px;
-  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 5px 5px 50px 0.1px rgba(0, 0, 0, 0.1);
 }
 
 .card__qrcode img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .card__text {
   font-family: "Outfit", sans-serif;
   text-align: center;
+  padding: 1.8rem 1rem;
 }
 
 .card__text h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 20px;
-  padding: 16px 10px;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .card__text p {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  padding-bottom: 15px;
-  font-size: 15px;
+  font-size: 1rem;
 }
 
 .attribution {
