@@ -48,12 +48,12 @@ body {
     display: none;
   }
 
-  .card picture{
+  .card picture {
     width: inherit;
   }
 
   .card__image--desktop {
-    display: flex; 
+    display: flex;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
   }
 }
@@ -114,7 +114,7 @@ body {
   padding: 1rem 0rem;
 }
 
-.card__button::before{
+.card__button::before {
   content: "";
   background-image: url("../images/icon-cart.svg");
   width: 15px;
@@ -127,12 +127,12 @@ body {
     width: fit-content;
     padding: 1.5rem;
   }
-  
+
   .card__text--title {
     font-size: 2.7rem;
     margin-bottom: 1rem;
   }
-  
+
   .card__text--descricao {
     font-size: 1.2rem;
     margin-bottom: 2rem;
@@ -142,11 +142,14 @@ body {
     margin-bottom: 2rem;
   }
 
-  .card__button{
+  .card__button {
     margin-bottom: 0rem;
   }
 
-
+  .card__button:hover {
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+  }
 }
 
 /* Attribution */
